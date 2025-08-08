@@ -8,11 +8,11 @@ export const AuthLayout = () => {
       <div className="hidden lg:flex lg:w-1/2 bg-gradient-to-br from-primary to-primary/80 p-12 text-white">
         <div className="flex flex-col justify-center max-w-lg">
           {/* Banner image en haut à gauche */}
-          <div className="mb-8">
+          <div className="mb-8 flex justify-center">
             <img 
               src="/images/replicate-prediction-pdg1e47ch1rm80crgwnv3zk9zr.jpg" 
               alt="WCAP Banner" 
-              className="w-full max-w-sm rounded-lg shadow-lg mb-6"
+              className="w-full max-w-full rounded-lg shadow-lg mb-6"
             />
           </div>
 
