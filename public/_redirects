@@ -1,0 +1,12 @@
+# Netlify redirections pour React Router (SPA)
+# Toutes les routes non-fichiers sont redirigées vers index.html
+/*    /index.html   200
+
+# Redirections spécifiques pour l'authentification
+/auth/*   /index.html   200
+/dashboard/*   /index.html   200
+/contacts/*   /index.html   200
+/campaigns/*   /index.html   200
+/chatbot/*   /index.html   200
+/analytics/*   /index.html   200
+/settings/*   /index.html   200
