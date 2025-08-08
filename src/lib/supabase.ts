@@ -1,12 +1,12 @@
 import { createClient } from '@supabase/supabase-js'
 
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || 'https://demo.supabase.co'
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || 'demo-key'
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || 'https://qbsimkokrsdkbdofkmpc.supabase.co'
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFic2lta29rcnNka2Jkb2ZrbXBjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQ2MTA0NTIsImV4cCI6MjA3MDE4NjQ1Mn0.ZXfVSXdMHahOb66GHf6nZsS5l5WnIbAV73q5JCjD8QQ'
 
-// Créer le client Supabase avec des valeurs par défaut sûres
+// Créer le client Supabase
 export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
   auth: {
-    persistSession: false, // Désactiver la persistance en mode démo
+    persistSession: true, // Activer la persistance des sessions
   }
 })
 
