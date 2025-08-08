@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line, PieChart, Pie, Cell } from 'recharts'
-import { Calendar, Download, Filter, TrendingUp, TrendingDown } from 'lucide-react'
+import { Download, Filter, TrendingUp, TrendingDown } from 'lucide-react'
 
 const messageData = [
   { name: 'Lun', envoyés: 240, livrés: 235, ouverts: 200 },
